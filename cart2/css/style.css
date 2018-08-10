@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+.settings {
+	list-style:none;
+	width:300px;
+	float:left;
+	margin-left:-40px;
+	margin-top:20px;
+}
+.settings > li {
+	color:#FFF;
+	width:320px;
+	float:left;
+	font-size:14px;
+	line-height:30px;
+	margin-top:10px;
+}
+#set1,#user,#sale,#report,#statistic,#product,#change{
+	box-shadow:#FFFBF0;
+	list-style:url(../image/next.png);
+	z-index:1000px;
+	font-size:14px;
+	background-color:#202020;
+	width:200px;
+}
+#set1 li a {
+	text-decoration:none;
+	color:#fff;
+	width:200px;
+}
+#set1 li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#user li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#user li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#sale li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#sale li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#report li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#report li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#statistic li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#statistic li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#product li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#product li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+#change li a {
+	text-decoration:none;
+	color:#fff;
+	
+}
+#change li a:hover {
+	text-decoration:inherit;
+	color:#7F0000;
+}
+button {
+	background:#fff;
+	border:0 #000;
+	width:auto;
+	color:#fff;
+}
+.table{
+	width:100%;
+	margin-top:5px;
+	border-collapse:collapse;
+}
+.table tr:nth-child(even) {background-color: #dddddd, color: #666666;text-indent:5px;height:20px; line-height:10px;}
+.table tr:nth-child(odd)  {background: #ccc;text-indent:5px; height:20px; line-height:10px;}
+.table tr:first-child{font-weight:bold;}
+.table td:first-child{font-weight:bold;}
+table, td, th {
+    border: 1px solid gray;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+@media print {
+	.settings,#header,#back,.col-xs-10 > .col-xs-4{
+		display:none;
+	}
+	#searchResult
+	{
+		float:left;
+	}
+	.col-xs-10 >table {
+		width:100%;
+		float:left;
+	}
+	table {
+		border:none !important;
+	}
+	table tr {
+		border-top:1px dashed #000;
+	}
+	table tr td {
+		text-align:center;
+	}
+	#viewProducts{
+		font-size:12px;
+		width:219.212598px;
+		margin:auto;
+	}
+	
+}
